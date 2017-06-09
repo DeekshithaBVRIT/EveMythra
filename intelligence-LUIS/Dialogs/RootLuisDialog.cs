@@ -17,13 +17,13 @@ namespace LuisBot.Dialogs
 #if useSampleModel
     [LuisModel("162bf6ee-379b-4ce4-a519-5f5af90086b5", "11be6373fca44ded80fbe2afa8597c18")]
 #else
-    [LuisModel("77b7c5c4-eb0a-44f0-a160-d911400e4fbf", "cdd56da6371c48c2b50567115744c8a4")]
+    [LuisModel(" 2d2b2b09-de56-4787-97f1-987d108f4c76", "8fc75abf1efb45cfbf265eae59031d1e")]
 #endif
     public class RootLuisDialog : LuisDialog<object>
     {
         private const string EntityGeographyCity = "builtin.geography.city";
 
-        private const string EntityHotelName = "Hotel";
+        private const string EntityHotelName = "Hotels";
 
         private const string EntityAirportCode = "AirportCode";
 
